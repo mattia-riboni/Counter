@@ -1,0 +1,114 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: 0;
+  font-family: Nunito, sans-serif;
+}
+
+body{
+  background: rgb(197, 232, 251);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1{
+  text-align: center;
+  font-size: 70px;
+  font-weight: bolder;
+  margin-top: 10px
+}
+.container{
+border: 5px solid rgb(138, 136, 136);
+border-radius: 30px;
+margin-top: 30px;
+text-align: center;
+font-size: 100px;
+width: 50vw;
+min-width: 300px;
+word-wrap: break-word;
+}
+
+button{
+  height:auto;
+  min-width:150px;
+  border: 2px solid black;
+  border-radius: 30px;
+  font-size:40px;
+  box-shadow: 4px 2px rgba(81, 81, 81, 0.463);
+  padding: 5px 10px 5px 10px;
+  margin-top: 10px;
+}
+
+#counter{
+  font-weight:400;
+  font-family: Inter, sans-serif;
+}
+
+#subtract{
+  background-color: rgb(255, 196, 196);
+ 
+}
+
+#subtract:hover{
+  background-color: rgb(255, 110, 110);
+}
+
+#add{
+  background-color: rgb(171, 230, 171);
+}
+
+#add:hover{
+  background-color: rgb(65, 163, 65);
+}
+
+.prev-count-container{
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+
+.special-btn-container{
+  display: flex;
+  width:50%;
+  margin-top:2vh;
+  flex-wrap: wrap;
+  justify-content: space-around; 
+  margin-bottom: 10vh;
+}
+
+.prev-count{
+  font-family: Inter, sans-serif;
+  font-weight: 400;
+}
+
+#reset{
+  background-color: rgb(240, 216, 247);
+  height: auto;
+}
+
+#reset:hover{
+  background-color: rgb(253, 148, 237);
+}
+
+#set-value{
+  background-color: rgb(121, 193, 248);
+}
+
+#set-value:hover{
+  background-color: rgb(110, 110, 247);
+}
+
+@media screen and (min-width:650px){
+  .special-btn{
+    width:50%;
+  }
+
+  #reset{
+    margin-right: 10px;
+  }
+
+  #set-value{
+    margin-left: 10px;
+  }
+  
+}
