@@ -12,7 +12,7 @@ About The Project
 
   
 
-![](/imgs/screenshot.png)
+![](/imgs/Immagine 2022-12-02 105404.png)
 
   
 
