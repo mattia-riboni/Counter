@@ -17,6 +17,7 @@ About The Project
 
 
 
+
 Questo progetto è stato realizzato per completare il corso di JavaScript Basics di start2impact. Sono state impiegate circa 3 ore per lo sviluppo completo e sono state fondamentali per una prima comprensione del linguaggio.
 
   
